@@ -1,0 +1,1 @@
+Added ArrayList collections to Hospital.java to store multiple patients and doctors. Implemented methods to save and load patient data from files. Updated Patient.java with getters for name and phone number. Updated Main.java to demonstrate adding patients to the hospital and using the collection.
