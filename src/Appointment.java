@@ -1,3 +1,5 @@
+package src;
+
 public class Appointment implements Schedulable {
 
     private int appointmentID;

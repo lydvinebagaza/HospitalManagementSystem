@@ -1,3 +1,5 @@
+package src;
+
 public class Doctor extends Employee {
 
     private String specialization;

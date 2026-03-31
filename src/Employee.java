@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Employee extends Person {
 
     protected double salary;
