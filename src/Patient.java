@@ -12,20 +12,23 @@ public class Patient extends Person implements Billable {
         this.admitted = false;
         totalPatients++;
     }
- public String getName(){
-    System.out.println ("name");
- }
- public String getPhoneNumber() {
-    return phoneNumber;
-}
+
+    public String getName() {
+        System.out.println("name");
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
     public void admitPatient() {
         admitted = true;
-        System.out.println( " admitted.");
+        System.out.println(" admitted.");
     }
 
     public void dischargePatient() {
         admitted = false;
-        System.out.println( " discharged.");
+        System.out.println(" discharged.");
     }
 
     @Override
